@@ -1,0 +1,20 @@
+package website1;
+
+public class Person{
+	private String name;
+	private String cname;
+
+	public void setname(String kname) {
+		this.name = kname;
+	}
+	public void setcname(String kname) {
+		this.cname = kname;
+	}
+
+	public String getname() {
+		return this.name;
+	}
+	public String getcname() {
+		return this.cname;
+	}
+}
